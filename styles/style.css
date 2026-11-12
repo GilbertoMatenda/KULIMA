@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+}
+header {
+  border-bottom: 1px solid #d6e3f8;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  color: #64748b;
+  background-color: #ffffff;
+}
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+}
+.nav-links a {
+  color: #64748b;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+.nav-links a:hover {
+  color: #0f5fe8;
+}
+.entrar {
+  background: transparent;
+  border: none;
+  color: black;
+}
+.criar {
+  background: #1261e8;
+  border: none;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 4px;
+}
+.primeiro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 3rem 0;
+  background-color: #f6f9fe;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+p {
+  color: #64748b;
+  padding: 40px;
+}
+.bt-comec {
+  background: #1261e8;
+  border: none;
+  color: white;
+  padding: 13px;
+  margin: 13px;
+  border-radius: 5px;
+  width: 150px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.bt-comec:hover {
+  cursor: pointer;
+  border: 1px solid #1261e8;
+  background: transparent;
+  color: #1261e8;
+}
+
+.bt-func {
+  border: none;
+  color: #1261e8;
+  padding: 13px;
+  margin: 13px;
+  border-radius: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background: transparent;
+  border: 1px solid #d6e3f8;
+  width: 150px;
+}
+.bt-func:hover {
+  cursor: pointer;
+  border: 1px solid #1261e8;
+}
+.segunda {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 3rem 0;
+  background-color: #ffffff;
+}
+h2 {
+  font-size: 20px;
+  color: #0f5fe8;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 5px;
+  margin: 3px;
+}
+span {
+  font-size: 30px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin: auto;
+}
